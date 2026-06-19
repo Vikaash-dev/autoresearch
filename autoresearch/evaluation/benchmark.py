@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Any
 
 class SOTAEvaluator:
     def __init__(self):
