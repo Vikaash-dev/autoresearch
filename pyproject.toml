@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoresearch"
+version = "0.1.0"
+description = "A self-reviewing, self-planning, SOTA-level autonomous AutoResearch workflow"
+authors = [
+    {name = "AutoResearch", email = "author@example.com"}
+]
+dependencies = [
+    "pydantic",
+    "networkx",
+    "typing-extensions"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "mypy", "ruff"]
