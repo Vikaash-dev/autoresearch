@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: autoresearch
+Version: 0.1.0
+Summary: A self-reviewing, self-planning, SOTA-level autonomous AutoResearch workflow
+Author-email: AutoResearch <author@example.com>
+Requires-Dist: pydantic
+Requires-Dist: networkx
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ruff; extra == "dev"

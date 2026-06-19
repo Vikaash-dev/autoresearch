@@ -1,0 +1,9 @@
+pydantic
+networkx
+typing-extensions
+
+[dev]
+pytest
+black
+mypy
+ruff
